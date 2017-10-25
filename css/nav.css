@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #15a2c1;
 }
 
 li {
@@ -20,5 +20,5 @@ li a {
 }
 
 li a:hover {
-    background-color: #15a2c1;
+    background-color: #333;
 }
