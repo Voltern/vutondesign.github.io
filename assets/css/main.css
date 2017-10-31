@@ -41,7 +41,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #e5c530;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     padding: 14px 16px;
@@ -52,9 +52,5 @@ hr.style {
     border: 0;
     height: 2px;
     background: #e5c530;
-}
-
-li a:hover {
-    background-color: #e5c530;
 }
 
