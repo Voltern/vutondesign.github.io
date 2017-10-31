@@ -54,3 +54,7 @@ hr.style {
     background: #e5c530;
 }
 
+li a:hover {
+    background-color: #e5c530;
+}
+
