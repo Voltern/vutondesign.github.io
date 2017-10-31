@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 html,
 body {
@@ -9,6 +8,7 @@ body {
     height: auto;
     font-weight: 400;
     font-size: 16px;
+    text-align: center;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     text-transform: none;
@@ -19,7 +19,6 @@ p {
 }
 
 h2 {
-   font-family: 'Ubuntu', sans-serif;
    color: #e5c530;
    font-weight: 400;
 }
