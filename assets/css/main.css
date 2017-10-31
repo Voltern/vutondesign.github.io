@@ -30,7 +30,6 @@ a:link,
 a:visited {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    transition: background-color .2s;
 }
 
 ul {
