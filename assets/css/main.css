@@ -29,6 +29,7 @@ h2 {
 a {
     color: #e5c530;
     font-family: 'Montserrat', sans-serif;
+    transition: transform .2s;
 }
 
 ul {
