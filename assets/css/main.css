@@ -21,10 +21,12 @@ p {
 h2 {
    font-family: 'Ubuntu', sans-serif;
    color: #e5c530;
+   font-weight: 400;
 }
 
 a {
-    color: #e5c530;
+    color: white;
+    font-weight: 400;
 }
 
 ul {
