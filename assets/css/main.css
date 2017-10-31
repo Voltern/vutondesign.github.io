@@ -33,11 +33,6 @@ a:visited {
     transition: background-color .2s;
 }
 
-a:hover,
-a:active {
-    background-color: #fff;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
