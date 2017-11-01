@@ -3,7 +3,7 @@
 html,
 body {
 	background-color: #222226;
-	color: #fff;
+	color: white;
 	width: 100%;
 	height: auto;
 	font-weight: 400;
@@ -26,21 +26,13 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-header a:link,
-header a:visited {
+a:link,
+a:visited {
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	transition: background-color .2s;
-	border-radius: 50px;
 }
 
-header a:hover,
-header a:active {
-	background-color: #e5c530;
-}
-
-
-ul {
+header ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -49,55 +41,56 @@ ul {
 	background-color: #222226;
 }
 
-li {
+header li {
 	float: left;
+	margin-left: 8px;
 }
 
-li a {
+header li a {
 	display: block;
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 12px 14px;
 	text-decoration: none;
+	transition: background-color .2s ease-in-out;
+	border-radius: 50px;
 }
 
-hr.style {
+header li a:hover {
+	background-color: #e5c530;
+}
+
+.hero-content {
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	transform: translate(-50%, -50%);
+}
+
+hr {
 	border: 0;
 	height: 2px;
 	background: #e5c530;
 }
 
-li a:hover {
-	background-color: #e5c530;
-	border-radius: 25px;
-}
-
-.hero-content {
-	position: absolute;
-	bottom: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: calc((80vw + 10vh) / 2);
-}
-
 footer {
 	position: absolute;
+	left: 50%;
 	bottom: 0;
-	width: 100%;
 	padding: 6px 0;
 }
 
 footer a:link,
 footer a:visited {
-	text-decoration: none;
-	padding: 0 5px;
-	color: #fff;
-	transition: font-size .2s;
+	display: inline-block;
+	padding: 0 3px;
 	vertical-align: middle;
+	color: #fff;
+	transition: font-size .2s ease-in-out;
 }
 
 footer a:hover,
 footer a:active {
-	font-size: 1.13em;
+	font-size: 125%;
 }
