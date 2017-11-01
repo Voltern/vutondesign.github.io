@@ -32,12 +32,13 @@ header a:visited {
 	font-family: 'Montserrat', sans-serif;
 	transition: background-color .2s;
 	border-radius: 50px;
-}
 
-header a:hover,
-header a:active {
-	background-color: #e5c530;
-}
+a:link,
+a:visited {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+
 
 
 ul {
