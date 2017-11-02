@@ -15,6 +15,12 @@ body {
 	text-transform: none;
 }
 
+a {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+		text-decoration: none;
+}
+
 p {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -23,12 +29,6 @@ h2 {
 	color: #e5c530;
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-}
-
-a:link,
-a:visited {
-	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -48,11 +48,8 @@ header li {
 
 header li a {
 	display: block;
-	color: white;
-	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	padding: 12px 14px;
-	text-decoration: none;
 	transition: background-color .2s ease-in-out;
 	border-radius: 50px;
 }
@@ -63,9 +60,21 @@ header li a:hover {
 
 .hero-content {
 	position: absolute;
+	height: 15%;
 	left: 50%;
 	bottom: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.product-link {
+	width: auto;
+	margin: 0 auto;
+	border-bottom: 2px solid transparent;
+	transition: 0.4s border-bottom ease-in-out;
+}
+
+.product-link:hover {
+	border-bottom: 2px solid #fff;
 }
 
 hr {
