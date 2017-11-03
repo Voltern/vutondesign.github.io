@@ -85,9 +85,9 @@ hr {
 
 footer {
 	position: absolute;
-	left: 50%;
 	bottom: 0;
 	padding: 6px 0;
+	width: 100%;
 }
 
 footer a:link,
