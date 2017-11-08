@@ -27,16 +27,16 @@ h2 {
 }
 
 a {
-    color: #e5c530;
+    color: white;
+    font-weight: 400;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    transition: transform .2s;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-weight: 400;
     overflow: hidden;
     background-color: #222226;
 }
@@ -58,10 +58,5 @@ hr.style {
     border: 0;
     height: 2px;
     background: #e5c530;
-}
-
-li a:hover {
-    background-color: #e5c530;
-    border-radius: 25px;
 }
 
